@@ -51,6 +51,11 @@ export default {
      </div>
      <div class="about-img"><img src='../assets/img/internet.png'></div>
      </div>
+      <div class="team-call">
+      <button class='btn 'href='#'>Conheça nosso time</button>
+      <h1><b>Engenheiros</b> nascidos da paixão e <b>movidos</b></h1>
+      <h1>pela curiosidade de <b>resolver problemas</b></h1>
+      </div>
     </div>
     
   </div>
@@ -62,21 +67,19 @@ $green03: #008545
 $green04: #006836
 
 .about-title
-  margin: 3rem 0 3rem 0
+  margin: 5rem 0 5rem 0
   display: flex
   justify-content: center
   align-items: center
   flex-flow: column
-
 .about-title h1 
   font-family: 'Source Sans Pro', sans-serif;
-  font-size: 40px
+  font-size: 50px
   font-weight: 300
   color: $green01
 
 .about-title b
   font-weight: bold
-
 .about-item
   background: $green01
   padding: 2rem
@@ -90,7 +93,6 @@ $green04: #006836
   font-family: 'Source Sans Pro', sans-serif;
   font-size: 25px
   font-weight: 200
-
 .about-item b
   font-weight: bold
 .item-2
@@ -99,11 +101,43 @@ $green04: #006836
   background: $green03
 .item-4
   background: $green04
-
 .about-text 
   display: flex
   justify-content: center
   align-items: center
   flex-flow: column wrap
 
+.team-call
+  background: $green04
+  display: flex
+  justify-content: center
+  align-items: center
+  flex-flow: column wrap
+  padding-bottom: 3rem
+
+.btn
+  color: #fff
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 18px
+  font-weight: bold
+  margin-bottom: 5rem
+  padding: 1rem 2rem 1rem 2rem
+  background: #fff
+  color: $green01
+  cursor: pointer
+  border-radius: 10px
+  text-transform: uppercase
+  transition: all .3s ease
+
+.btn:hover
+  text-decoration: underline
+  color: $green04
+
+.team-call h1 
+  color: #fff
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 50px
+  font-weight: 200
+.team-call b
+  font-weight: bold
 </style>
