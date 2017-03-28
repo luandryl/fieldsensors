@@ -96,6 +96,8 @@ $green04: #006836
   background: $green03
 .item-4
   background: $green04
+  padding-bottom: 5rem
+  
 .about-text 
   display: flex
   justify-content: center
