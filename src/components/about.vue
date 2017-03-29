@@ -61,6 +61,7 @@ $green02: #00a857
 $green03: #008545
 $green04: #006836
 
+
 .about-title
   margin: 5rem 0 5rem 0
   display: flex
@@ -97,7 +98,7 @@ $green04: #006836
 .item-4
   background: $green04
   padding-bottom: 5rem
-  
+
 .about-text 
   display: flex
   justify-content: center

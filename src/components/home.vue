@@ -112,7 +112,7 @@ $green04: #006836
   cursor: pointer
   border-radius: 10px
   text-transform: uppercase
-  transition: all .3s ease
+  transition: all .1s ease
 
 .btn:hover
   text-decoration: underline
