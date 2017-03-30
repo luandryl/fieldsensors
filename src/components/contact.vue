@@ -1,5 +1,5 @@
 <template>
-  <div class="contact-wrapper">
+  <div id='contact' class="contact-wrapper">
     <div class="contact-title">
       <h1>Entre em Contato</h1>
       <hr />
@@ -44,7 +44,7 @@ $green04: #006836
   -o-background-size: cover
   min-height: 95vh
   height: 95%
-  padding: 15rem 2rem 2rem 2rem
+  padding: 8rem 2rem 2rem 2rem
   display: flex
   justify-content: space-around
   align-items: center

@@ -4,17 +4,16 @@ export default {
 };
 </script>
 <template>
-  <div class="home-wrapper">
+  <div id='home' class="home-wrapper">
     <div class='navbar-wrapper'>
       <div class="nav-logo">
         <img src='../assets/img/logo.png'>
       </div>
       <div class="nav-links">
         <ul class='links-list'>
-          <li><a href='#'>Home</a></li>
-          <li><a href='#'>O que fazemos?</a></li>
-          <li><a href='#'>Quem somos?</a></li>
-          <li><a href='#'>Contato</a></li>
+          <li><a href='#' class='link-home' v-scroll-to="'#about'">O que fazemos?</a></li>
+          <li><a href='#' class='link-home' v-scroll-to="'#team'">Quem somos?</a></li>
+          <li><a  v-scroll-to="'#contact'" class='btn' href='#'>Contato</a></li>
         </ul>
       </div>
     </div>
@@ -24,8 +23,7 @@ export default {
       <h2 class='subtitle'>Agricultura de precisão, de verdade.</h2>
       <hr />
       <div class="call-to-action">
-        <button class="btn bt-green" href='#'> Saiba Mais</button>
-        <button class='btn'href='#'>Contato</button>
+        <a v-scroll-to="'#about'" class="btn bt-green" href='#'> Saiba Mais</a>
       </div>
     </div>
   </div>
@@ -63,7 +61,7 @@ $green04: #006836
   display: flex
   margin: 1rem
 
-.links-list a 
+.link-home 
   margin: 1rem
   color: #fff
   font-family: 'Source Sans Pro', sans-serif;
@@ -71,7 +69,7 @@ $green04: #006836
   font-weight: bold
   transition: all .3s ease
 
-.links-list a:hover
+.link-home:hover
   color: $green04
 
 .home-container 

@@ -1,6 +1,6 @@
 <template>
 <div>
-  <div class='team-wrapper'>
+  <div id='team' class='team-wrapper'>
     <div class='team-member'>
       <img src='../assets/img/fidelis.png'>
       <h1>Lucas Fidelis</h1>

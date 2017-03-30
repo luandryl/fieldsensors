@@ -4,7 +4,7 @@ export default {
 };
 </script>
 <template>
-  <div class="about-wrapper">
+  <div id='about' class="about-wrapper">
 
     <div class="about-title">
       <h1>Temos a <b>compreensão real</b></h1>
@@ -47,7 +47,7 @@ export default {
      <div class="about-img"><img src='../assets/img/internet.png'></div>
      </div>
       <div class="team-call">
-      <button class='btn 'href='#'>Conheça nosso time</button>
+      <a class='btn 'href='#' v-scroll-to="'#team'" >Conheça nosso time</a>
       <h1><b>Engenheiros</b> nascidos da paixão e <b>movidos</b></h1>
       <h1>pela curiosidade de <b>resolver problemas</b></h1>
       </div>
