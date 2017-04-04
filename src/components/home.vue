@@ -111,9 +111,9 @@ $green04: #006836
   border-radius: 10px
   text-transform: uppercase
   transition: all .1s ease
+  box-shadow: 0 4px 5px 0 rgba(0,0,0,0.14), 0 1px 10px 0 rgba(0,0,0,0.12), 0 2px 4px -1px rgba(0,0,0,0.3)
 
 .btn:hover
-  text-decoration: underline
   color: $green04
 
 .bt-green 

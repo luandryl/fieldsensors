@@ -17,8 +17,10 @@
       </div>
 
       <div class="form-group-wide">
-        <label>Email</label>
-        <input required type="email" v-model="email" name="email" placeholder="Ex: jose.carlos@gmail.com">
+        <label>Sua Mensagem</label>
+        <textarea rows="4" cols="50">
+            
+        </textarea>
       </div>
       <div class="form-group-btn">
         <button class='btn'href='#'>Enviar</button>
@@ -53,10 +55,11 @@ $green04: #006836
 .contact-form
   display: flex
   justify-content: center
-  align-items: stretch
+  align-items: center
   flex-flow: row wrap
   margin-top: 3rem
-
+  width: 60%
+  
 .form-group
   display: flex
   justify-content: flex-start
@@ -65,7 +68,8 @@ $green04: #006836
   margin: 1.5rem
 
 .form-group-wide
-  width: 50%
+  width: 60%
+
 
 .form-group-btn
   width: 60%
@@ -81,6 +85,14 @@ label
   margin: 0 0 1rem 10px
 
 input
+  padding: .7rem
+  color: #fff
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 20px
+  font-weight: 200
+  background: rgba(0,104,54,.5)
+
+textarea
   padding: .7rem
   color: #fff
   font-family: 'Source Sans Pro', sans-serif;
@@ -112,9 +124,10 @@ textarea:-moz-placeholder
   transition: all .3s ease
   width: 85%
   text-aling: center
+  box-shadow: 0 4px 5px 0 rgba(0,0,0,0.14), 0 1px 10px 0 rgba(0,0,0,0.12), 0 2px 4px -1px rgba(0,0,0,0.3)
+
 
 .btn:hover
-  text-decoration: underline
   color: $green04
 
 .location-info
