@@ -11,9 +11,9 @@ export default {
       </div>
       <div class="nav-links">
         <ul class='links-list'>
-          <li><a href='#' class='link-home' v-scroll-to="'#about'">O que fazemos?</a></li>
-          <li><a href='#' class='link-home' v-scroll-to="'#team'">Quem somos?</a></li>
-          <li><a  v-scroll-to="'#contact'" class='btn' href='#'>Contato</a></li>
+          <li><a href='#' class='link-home' v-scroll-to="'#about'">Soluções</a></li>
+          <li><a href='#' class='link-home' v-scroll-to="'#team'">Equipe</a></li>
+          <li><a href='#' class='link-home' v-scroll-to="'#contact'">Contato</a></li>
         </ul>
       </div>
     </div>
@@ -21,9 +21,8 @@ export default {
     <div class='home-container'>
       <h1 class='title'> Conectando para fazer mais</h1>
       <h2 class='subtitle'>Agricultura de precisão, de verdade.</h2>
-      <hr />
       <div class="call-to-action">
-        <a v-scroll-to="'#about'" class="btn bt-green" href='#'> Saiba Mais</a>
+        <a v-scroll-to="'#about'" class="btn" href='#'> Saiba Mais</a>
       </div>
     </div>
   </div>
@@ -65,8 +64,8 @@ $green04: #006836
   margin: 1rem
   color: #fff
   font-family: 'Source Sans Pro', sans-serif;
-  font-size: 18px
-  font-weight: bold
+  font-size: 20px
+  font-weight: 200
   transition: all .3s ease
 
 .link-home:hover
@@ -89,7 +88,7 @@ $green04: #006836
 .title
   font-family: 'Source Sans Pro', sans-serif;
   font-size: 60px
-  font-weight: bold
+  font-weight: 200
   color: #fff
 
 .subtitle
@@ -98,6 +97,9 @@ $green04: #006836
   font-size: 40px
   color: #fff
 
+.call-to-action
+  margin: 3.5rem 0 1rem 0
+
 .btn
   color: #fff
   font-family: 'Source Sans Pro', sans-serif;
@@ -105,18 +107,13 @@ $green04: #006836
   font-weight: bold
   margin: 1rem
   padding: 1rem 2rem 1rem 2rem
-  background: #fff
-  color: $green01
+  color: #fff
   cursor: pointer
-  border-radius: 10px
   text-transform: uppercase
   transition: all .1s ease
-  box-shadow: 0 4px 5px 0 rgba(0,0,0,0.14), 0 1px 10px 0 rgba(0,0,0,0.12), 0 2px 4px -1px rgba(0,0,0,0.3)
+  border: 2px solid #fff
 
 .btn:hover
   color: $green04
-
-.bt-green 
-  background: $green01
-  color: #fff
+  border: 2px solid $green04
 </style>
